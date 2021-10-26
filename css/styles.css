@@ -98,7 +98,8 @@ hr {
 }
 
 hr:not([size]) {
-  height: 1px;
+  height: 5px;
+  background-color: #bd5d38;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -237,11 +238,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #D72638;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+    color: #8f1824;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4479,20 +4480,20 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+    color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+    color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+    color: #8f1824;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #D72638;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -7720,7 +7721,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #D72638;
 }
 
 .text-secondary {
@@ -7811,7 +7812,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #00B2CA;
 }
 
 .bg-secondary {
@@ -11366,6 +11367,7 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    background-color: #D72638;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11401,7 +11403,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #D72638;
 }
 
 .dev-icons {
@@ -11432,6 +11434,6 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #212529;
+    background-color: #012A36;
   }
 }
