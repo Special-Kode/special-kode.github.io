@@ -94,12 +94,12 @@ hr {
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.50;
 }
 
 hr:not([size]) {
   height: 5px;
-  background-color: #bd5d38;
+  background-color: #D72638;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -239,7 +239,8 @@ sup {
 
 a {
   color: #D72638;
-  text-decoration: underline;
+  text-decoration: none;
+  /*text-decoration: underline;*/
 }
 a:hover {
     color: #8f1824;
@@ -7095,7 +7096,8 @@ textarea.form-control-lg {
 }
 
 .justify-content-between {
-  justify-content: space-between !important;
+  /*justify-content: space-between !important;*/
+  justify-content: space-evenly !important;
 }
 
 .justify-content-around {
