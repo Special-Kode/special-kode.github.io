@@ -636,12 +636,12 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #212529;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e2873;
 }
 
 @media (min-width: 576px) {
@@ -7722,6 +7722,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: #D72638;
+  font-weight: bold;
 }
 
 .text-secondary {
@@ -7811,8 +7812,8 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: #00B2CA;
+    --bs-bg-opacity: 1;
+    background-color: #141940;
 }
 
 .bg-secondary {
@@ -11434,6 +11435,6 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #012A36;
+    /*background-color: #012A36;*/
   }
 }
