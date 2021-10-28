@@ -7097,7 +7097,7 @@ textarea.form-control-lg {
 
 .justify-content-between {
   /*justify-content: space-between !important;*/
-  justify-content: space-evenly !important;
+  /*justify-content: space-evenly !important;*/
 }
 
 .justify-content-around {
